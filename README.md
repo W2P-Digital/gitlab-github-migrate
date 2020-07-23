@@ -1,7 +1,7 @@
 
 # GitLab to GitHub migration
 
-Migrate repositories, wikis, issues and milestones from GitLab to GitHub.
+Migrate repositories (one by one, or by batch) from GitLab to GitHub.
 
 ## Install
 
