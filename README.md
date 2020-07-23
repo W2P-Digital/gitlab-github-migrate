@@ -20,10 +20,9 @@ Migrate repositories, wikis, issues and milestones from GitLab to GitHub.
 
 ## Examples
 
-    cake -i 6 -l websites/my-website -h my-website migrate:repo
-    cake -i 6 -l websites/my-website -h my-website migrate:wiki
-    cake -i 6 -l websites/my-website -h my-website migrate:issues
-    cake -i 6 -l websites/my-website -h my-website migrate:milestones
+    cake list:gitlab:repos
+    cake -l websites/my-website -h my-website migrate:repo
+    cake -l websites/my-website -h my-website migrate:repo
 
 ## Notes
 

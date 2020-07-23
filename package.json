@@ -12,6 +12,7 @@
   "dependencies": {
     "coffee-script": "^1.9.3",
     "dotenv": "^1.2.0",
+    "node-fetch": "^2.6.0",
     "request-promise": "^0.4.3",
     "shelljs": "^0.5.1",
     "underscore": "^1.8.3"
