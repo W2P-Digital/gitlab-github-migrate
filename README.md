@@ -21,7 +21,7 @@ Migrate repositories, wikis, issues and milestones from GitLab to GitHub.
 ## Examples
 
     cake list:gitlab:repos
-    cake -l websites/my-website -h my-website migrate:repo
+    cake -n 20 migrate:manyRepos
     cake -l websites/my-website -h my-website migrate:repo
 
 ## Notes
@@ -29,5 +29,3 @@ Migrate repositories, wikis, issues and milestones from GitLab to GitHub.
 * `gitlab_id` can be found by inspecting the `body` tag of the GitLab project page (e.g. `data-project-id="84"`), or via the GitLab API.
 
 * `GITHUB_TEAM_ID` can be found via `api.github.com/teams` (requires org owner rights).
-
-* `migrate:wiki` requires that the GitHub wiki must be created first (it's enough to create a single blank page).
